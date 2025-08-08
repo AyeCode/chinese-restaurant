@@ -4,7 +4,7 @@ get_header(); ?>
     <header id="kt-page-header-simple" class="text-center">
 
         <h1 class="kt-post-entry-title kt-search-title">
-            <?php echo __('Search results for the term: ', 'chinese-restaurant') . $_GET['s']; ?>
+            <?php echo esc_html( wp_sprintf( __( 'Search results for the term: %s', 'chinese-restaurant' ), get_search_query( false ) ) ); ?>
             <?php if ($paged > 1):
                 echo
                     '<small>' . __('   Page:
