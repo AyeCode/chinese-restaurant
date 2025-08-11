@@ -49,21 +49,12 @@
 
                     <div class="kt-blog-post-image">
                 
-                        <a href="<?php the_permalink(); ?>"
-                           title="<?php the_title_attribute(); ?>">
-                            <?php if(get_theme_mod('chinese_no_image_upload','') != ''): ?>
-                            <figure>
-                                <img alt="No featured image" src="<?php echo get_theme_mod
-                                ('chinese_no_image_upload',''
-                                    ); ?>"/>
-                            </figure>
-                        <?php else: ?>
-                                <figure>
-                                    <img alt="no featured image" src="<?php echo get_template_directory_uri()
-                                        .'/img/no-image.jpg'; ?>"/>
-                                </figure>
-                        <?php endif; ?>
-
+                        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                            <?php if ( get_theme_mod( 'chinese_no_image_upload', '' ) != '' ) : ?>
+                            <figure><img alt="No featured image" src="<?php echo esc_attr( get_theme_mod( 'chinese_no_image_upload', '' ) ); ?>"/></figure>
+                            <?php else : ?>
+                            <figure><img alt="no featured image" src="<?php echo esc_url( get_template_directory_uri() . '/img/no-image.jpg' ); ?>"/></figure>
+                            <?php endif; ?>
                             <div class="kt-overlay"></div>
                         </a>
                         <div class="kt-post-meta blog-list-meta clearfix">
