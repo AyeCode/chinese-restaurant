@@ -1,10 +1,9 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Chinese Restaurant Theme 3.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 17:14+0530\n"
-"PO-Revision-Date: 2025-08-08 10:57+0000\n"
+"PO-Revision-Date: 2025-08-11 17:14+0530\n"
 "Last-Translator: \n"
 "Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
 "Language: en_US\n"
@@ -231,8 +230,9 @@ msgid "Please contact the administrator of this site for help."
 msgstr ""
 
 #: framework/ketchup-functions.php:132
+#, fuzzy
 msgid "General Settings"
-msgstr ""
+msgstr "'Lokácia"
 
 #: framework/ketchup-functions.php:133
 msgid "General Settings for this theme."
@@ -613,12 +613,14 @@ msgid "Vimeo URL"
 msgstr ""
 
 #: framework/ketchup-functions.php:1699
+#, fuzzy
 msgid "Slider Settings"
-msgstr ""
+msgstr "'Lokácia"
 
 #: framework/ketchup-functions.php:1700
+#, fuzzy
 msgid "Slider Settings."
-msgstr ""
+msgstr "'Lokácia"
 
 #: framework/ketchup-functions.php:1777
 msgid "Disable Slider"
@@ -1217,3 +1219,31 @@ msgstr ""
 #: tag.php:8
 msgid "You are viewing posts tagged with: "
 msgstr ""
+
+#, fuzzy
+#~ msgid "Location"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Enter Your Location"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "GT > Location Select"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Select Location"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Homepage Location description"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Location database checks"
+#~ msgstr "'Lokácia"
+
+#, fuzzy
+#~ msgid "Select location order"
+#~ msgstr "'Lokácia"

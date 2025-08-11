@@ -36,7 +36,7 @@
             <div class="col-md-12 text-center">
                 <p>
                     <a rel="nofollow" href="<?php echo esc_url(__(
-                        'http://ketchupthemes.com/chinese-restaurant-theme/',
+                        'https://ayecode.io/',
                         'chinese-restaurant')); ?>">
                         <small><?php printf(__('Chinese Restaurant Theme', 'chinese-restaurant'));
                             ?></small>
