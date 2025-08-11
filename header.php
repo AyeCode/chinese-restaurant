@@ -8,6 +8,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <div class="site-loader"></div>
 <?php do_action('chinese_after_body_tag'); ?>
 
