@@ -1,4 +1,9 @@
 <?php
+/**
+ * The theme version.
+ */
+define( 'CHINESE_RESTAURANT_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+
 /**=== Setup Theme == **/
 
 add_action('after_setup_theme','chinese_setup_theme');

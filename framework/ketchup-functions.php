@@ -2224,7 +2224,7 @@ function chinese_upsell_notice()
         'prefix-customizer-upsell',
         'prefixL10n',
         array(
-            'prefixURL' => esc_url('http://ketchupthemes.com/chinese-restaurant-theme'),
+            'prefixURL' => esc_url('https://ayecode.io'),
             'prefixLabel' => __('Upgrade To Premium', 'chinese-restaurant'),
         )
     );
@@ -2233,7 +2233,7 @@ function chinese_upsell_notice()
         'prefix-customizer-pro',
         'prefixL11n',
         array(
-            'prefixURL' => esc_url('http://ketchupthemes.com/chinese-restaurant-theme'),
+            'prefixURL' => esc_url('https://ayecode.io'),
             'prefixLabel' => __('PRO', 'chinese-restaurant'),
         )
     );

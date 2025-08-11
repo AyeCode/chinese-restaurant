@@ -1,21 +1,18 @@
 /*
 Theme Name: Chinese Restaurant
-Theme URI: http://ketchupthemes.com/chinese-restaurant-theme
-Author: Alexandros Itsios
-Author URI: http://ketchupthemes/alex-itsios
+Theme URI: https://wpgeodirectory.com/
+Author: AyeCode Ltd
+Author URI: https://ayecode.io/
 Description: Chinese Restaurant Theme uses twitter bootstrap responsive boilerplate that adapts your website to mobile devices and the desktop or any other viewing environment. The theme is mainly targeted for Japanese, Chinese, Korean, Thai restaurants or sushi bars, that want to display their dishes, but it can also be used for any other restaurant type or for a recipe website. Also, you have the options to upload your own logo, header and favicon through the Customizer panel. It's Multilingual Ready, Search Engine Friendly, W3C Markup Validated and Cross-Browser compatible. Finally, your customers will have the option to reserve a table through our free restaurant reservation system.
-Version: 3.0.2
+Tags: one-column, two-columns,right-sidebar, chinese restaurant, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, restaurant, sticky-post, threaded-comments, translation-ready
+Version: 3.1.0
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: one-column, two-columns,right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, sticky-post, threaded-comments, translation-ready
 Text Domain: chinese-restaurant
 */
-
-/**
-*
-* WORDPRESS RELATED CLASSES
-*
-**/
 
 /**== WordPress Core Classes ==**/
 
